@@ -29,6 +29,4 @@ public class TestCases {
         driver.get("https://www.google.com");
         System.out.println("end Test case: testCase02");
     }
-
-
 }
