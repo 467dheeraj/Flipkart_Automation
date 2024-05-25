@@ -21,7 +21,7 @@ public class TestCases extends Wrapper {
 
     }
 
-    @Test
+    @Test(priority=0, description="Search 'Washing Machine'. Sort by popularity and print the count of items with rating less than or equal to 4 stars.")
     public void testCase01() throws InterruptedException{
         System.out.println("Start Test case: testCase01");
         Wrapper.navigate();
@@ -32,7 +32,7 @@ public class TestCases extends Wrapper {
         System.out.println("end Test case: testCase01");
     }
 
-    @Test
+    @Test(priority = 1, description = "Search 'iPhone', print the Titles and discount % of items with more than 17% discount.")
     public void testCase02()
     {
         System.out.println("Start Test case: testCase02");
@@ -42,7 +42,7 @@ public class TestCases extends Wrapper {
         System.out.println("end Test case: testCase02");
     }
 
-    @Test
+    @Test(priority = 2, description = "Search 'Coffee Mug', select 4 stars and above, and print the Title and image URL of the 5 items with highest number of reviews.")
     public void testCase03()
     {
         System.out.println("Start Test case: testCase03");
